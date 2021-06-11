@@ -4,23 +4,95 @@
     box-sizing: border-box;
 
 }
+body {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+
+}
 /* stile main contenitore  */
 .contenitore {
+    
+   
+   
 
 }
 /* fine stile main contenitore  */
 /* stile contenitore riga  */
 .row {
+    
+    width: 100%;
+    height: 410px;
+    background-color: red;
+  
 
 }
 /* fine stile contenitore riga  */
 /* stili prodotto  */
+.prodotto {
+    position: relative;
+    display: inline-block;
+    width: 33%;
+    height: 410px;
+   
+   
+}
+
+.articolo-1 {
+    position: absolute;
+    width: 100%;
+}
+span.sconto {
+    position: absolute;
+    width: auto;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    bottom: 70px;
+    left: 0px;
+}
+span.sostenibilita{
+    position: absolute;
+    width: auto;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    bottom: 70px;
+    left: 50px;
+    
+
+}
+span.cuore {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    top: 15px;
+    right: 0;
+    line-height: 40px;
+}
+.cuore {
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+   
+
+}
 
 
 /* fine stili prodotto  */
 
 
 /* stili descrizione articolo  */
+.descrizione-articolo{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: indigo;
+    bottom: 0;
+}
 
 
 /* fine stili descrizione articolo  */
