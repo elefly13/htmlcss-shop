@@ -104,3 +104,23 @@ span.prezzo{
    text-decoration-line: line-through;
 }
 /* fine stili descrizione articolo  */
+
+
+.row:first-child .prodotto:nth-child(2) .sostenibilita{
+    visibility: hidden;
+}
+.row:first-child .prodotto:nth-child(3) .sostenibilita {
+    visibility: hidden;
+}
+.row:first-child .prodotto:nth-child(3) .sconto{
+    visibility: hidden;
+}
+.row:last-child .prodotto:nth-child(2) .sconto{
+    visibility: hidden;
+}
+.row:last-child .prodotto:nth-child(2) .sostenibilita{
+    visibility: hidden;
+}
+.row:last-child .prodotto:nth-child(3) .sconto{
+    visibility: hidden;
+}
